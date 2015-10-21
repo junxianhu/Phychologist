@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="e8u-sw-F2b">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Dr.pill-->
+        <scene sceneID="NLI-Qz-FpG">
+            <objects>
+                <viewController id="jRz-20-VfM" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e6g-oy-Adl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="So,what brings you to my show?iphone app,today" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="g8f-DT-45J">
+                                <rect key="frame" x="36" y="129" width="222" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sGy-LU-fez">
+                                <rect key="frame" x="36" y="221" width="211" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="I'm a celebrity!"/>
+                                <connections>
+                                    <segue destination="OU7-HA-paz" kind="push" identifier="celebrity" id="XSo-JY-k1n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="c2I-eH-VAS">
+                                <rect key="frame" x="42" y="351" width="211" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="I wannna to be on TV!"/>
+                                <connections>
+                                    <segue destination="pXR-Or-Zcz" kind="push" identifier="TV" id="1zh-I4-x72"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HXP-82-D5E">
+                                <rect key="frame" x="42" y="287" width="211" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="I have a serious problem!"/>
+                                <connections>
+                                    <segue destination="TxM-7c-ah2" kind="push" identifier="serious" id="aty-59-wRr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Dr.pill" id="G2P-PL-NLX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d1F-mw-QBb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="871" y="-439"/>
+        </scene>
+        <!--Dr.Cipher-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="what do you see in your dreams?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FBC-JV-EOD">
+                                <rect key="frame" x="27" y="89" width="255" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fSR-K6-0lI">
+                                <rect key="frame" x="27" y="143" width="255" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="I'm flying all the time!"/>
+                                <connections>
+                                    <action selector="flying" destination="BYZ-38-t0r" eventType="touchUpInside" id="w56-Ty-jAV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7se-qO-QAh">
+                                <rect key="frame" x="27" y="192" width="255" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="steel apple with a bite take out!"/>
+                                <connections>
+                                    <action selector="apple" destination="BYZ-38-t0r" eventType="touchUpInside" id="KhP-sJ-Qko"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qmZ-9v-iue">
+                                <rect key="frame" x="27" y="247" width="255" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="I'm chased by dragone!"/>
+                                <connections>
+                                    <action selector="dragones" destination="BYZ-38-t0r" eventType="touchUpInside" id="x0s-E9-BTx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Dr.Cipher" id="r2V-G9-PhS"/>
+                    <connections>
+                        <segue destination="Qi2-Vi-0WX" kind="push" identifier="showDiagnosis" id="CfH-Tm-bMW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="871" y="267"/>
+        </scene>
+        <!--Diagnosis-->
+        <scene sceneID="LRk-vi-iXl">
+            <objects>
+                <viewController id="Qi2-Vi-0WX" customClass="FaceViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YQs-KF-6ng" customClass="FaceView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Diagnosis" id="zQQ-7a-Rqy"/>
+                    <connections>
+                        <outlet property="faceView" destination="YQs-KF-6ng" id="cgm-4k-yie"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c8Z-qz-4en" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1399" y="267"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="VQz-QA-UC1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="e8u-sw-F2b" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gOD-9P-q2U">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="MLW-pf-IOH" kind="relationship" relationship="rootViewController" id="bBi-4q-yxl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ueb-7e-3Ve" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-112" y="-214"/>
+        </scene>
+        <!--Phychologist-->
+        <scene sceneID="nPV-jA-Whe">
+            <objects>
+                <viewController id="MLW-pf-IOH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="stV-xH-ygo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DbV-9c-aKb">
+                                <rect key="frame" x="103" y="205" width="114" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.91862088441848755" green="0.52306771278381348" blue="0.64517718553543091" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Dr.cipher"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="push" id="FMl-pc-Cpf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aAP-wb-Uk9">
+                                <rect key="frame" x="103" y="142" width="114" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.91600501537322998" green="0.57302725315093994" blue="0.71418172121047974" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Dr.pill"/>
+                                <connections>
+                                    <segue destination="jRz-20-VfM" kind="push" id="hb5-kh-KKq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Phychologist" id="pco-qm-z2d"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MVL-RB-C5x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="390" y="-205"/>
+        </scene>
+        <!--celebrity?-->
+        <scene sceneID="Ge2-J1-m5q">
+            <objects>
+                <viewController id="OU7-HA-paz" customClass="FaceViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mQU-ss-o61" customClass="FaceView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="celebrity?" id="fiR-30-FpO"/>
+                    <connections>
+                        <outlet property="faceView" destination="mQU-ss-o61" id="TgW-Dq-yDI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1j2-pV-fvh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1382" y="-722"/>
+        </scene>
+        <!--Um.er.hh....-->
+        <scene sceneID="xDe-mH-aNS">
+            <objects>
+                <viewController id="TxM-7c-ah2" customClass="FaceViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="stG-Gn-UWS" customClass="FaceView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VHo-gp-qei">
+                                <rect key="frame" x="69" y="518" width="201" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="go to website"/>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Um.er.hh...." id="DUI-dJ-spY"/>
+                    <connections>
+                        <outlet property="faceView" destination="stG-Gn-UWS" id="7tp-rH-dkf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y6O-eJ-JB5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1510" y="-564"/>
+        </scene>
+        <!--HaHa.go hospital-->
+        <scene sceneID="mjm-b8-ReM">
+            <objects>
+                <viewController id="pXR-Or-Zcz" customClass="FaceViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8zo-ms-2G5" customClass="FaceView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="HaHa.go hospital" id="Iz1-o1-Duj"/>
+                    <connections>
+                        <outlet property="faceView" destination="8zo-ms-2G5" id="Pbm-jH-iDl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5cm-ky-MM9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1645" y="-362"/>
+        </scene>
+    </scenes>
+</document>
